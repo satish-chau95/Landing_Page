@@ -1,4 +1,101 @@
-z.dark_mode {
+/* Theme styles */
+body[data-theme='dark'] {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+body[data-theme='light'] {
+    background-color: #ffffff; /* Light background color */
+    color: #000000; /* Dark text color */
+}
+
+body[data-theme='dark'] .main-div,
+body[data-theme='dark'] .t-s,
+body[data-theme='dark'] .m-s-2,
+body[data-theme='dark'] .m-o,
+body[data-theme='dark'] .container .cardy-text{
+    background-color: #121212; /* Dark background color for main-div */
+    color: #ffffff; /* Light text color for main-div */
+}
+
+body[data-theme='light'] .main-div,
+body[data-theme='light'] .t-s,
+body[data-theme='light'] .m-s-2,
+body[data-theme='light'] .m-o,
+body[data-theme='light'] .container .cardy-text{
+    background-color: #ffffff; /* Light background color for main-div */
+    color: #000000; /* Dark text color for main-div */
+}
+
+/* Dark mode styles */
+body[data-theme='dark'] {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+body[data-theme='dark'] nav {
+    background-color: #212020; /* Dark background color for navbar */
+    color: #ffffff; /* Light text color for navbar */
+}
+
+body[data-theme='dark'] nav .menu-btn {
+    color: #ffffff; /* Adjust menu button color for dark theme */
+}
+
+body[data-theme='dark'] nav ul {
+    background-color: #212020; /* Dark background color for dropdown menu */
+}
+
+body[data-theme='dark'] nav ul li {
+    color: #ffffff; /* Adjust text color for menu items in dark theme */
+}
+
+body[data-theme='dark'] nav ul li:hover {
+    background-color: #333333; /* Dark background color on hover for menu items */
+}
+
+body[data-theme='dark'] .btn-login{
+    color: #000000;
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+body[data-theme='dark'] .btn-signup {
+    color: white;
+    background-color: #4ca14f;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Light mode styles */
+body[data-theme='light'] {
+    background-color: #ffffff; /* Light background color */
+    color: #000000; /* Dark text color */
+}
+
+body[data-theme='light'] nav {
+    background-color: #ffffff; /* Light background color for navbar */
+    color: #000000; /* Dark text color for navbar */
+}
+
+body[data-theme='light'] nav .menu-btn {
+    color: #000000; /* Adjust menu button color for light theme */
+}
+
+body[data-theme='light'] nav ul {
+    background-color: #ffffff; /* Light background color for dropdown menu */
+}
+
+body[data-theme='light'] nav ul li {
+    color: #000000; /* Adjust text color for menu items in light theme */
+}
+
+body[data-theme='light'] nav ul li:hover {
+    background-color: #f0f0f0; /* Light background color on hover for menu items */
+}
+.dark_mode {
     margin-top: -20px;
     margin-left: 10px;
 }
